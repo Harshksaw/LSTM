@@ -24,7 +24,7 @@ Long Short Term Memory (LSTM) is a type of deep learning model that is mostly us
 Stock prices are downloaded from finance.yahoo.com. Disneyland (DIS) Stock Price CSV file.
 	-Closed value (column[5]) is used in the network, LSTM Code
 -Values are normalized in range (0,1).
--Datasets are splitted into train and test sets, 50% test data, 50% training data.
+-Datasets are splitted into train and test sets, 20% test data, 80% training data.
 -Keras-Tensorflow is used for implementation.
 -LSTM network consists of 25 hidden neurons, and 1 output layer (1 dense layer).
 -LSTM network features input: 1 layer, output: 1 layer , hidden: 25 neurons, optimizer:adam, dropout:0.1, timestep:300, batchsize:300, epochs:10 (features -can be further optimized).
