@@ -31,7 +31,7 @@ st.write(df.describe())
 
 #visualizations
 
-st.title("Visit my Github Repo")
+
 
     # Display some content
 
