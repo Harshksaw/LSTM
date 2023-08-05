@@ -36,7 +36,7 @@ st.title("Visit my Github Repo")
     # Display some content
 
     # Creating a hyperlin
-st.markdown("[Click here to visit Google](https://github.com/Harshksaw/Hotstart_clone_project)")
+st.markdown("[Click here to visit REPO -](https://github.com/Harshksaw/Hotstart_clone_project)")
 
 
 st.subheader('Closing Price vs Time Chart')
