@@ -90,7 +90,9 @@ def preprocess_data(data):
 # Function to get the seasonal decomposition
 def get_seasonal_decomposition(data):
     results = seasonal_decompose(data['Close'], model='multiplicative', period=12)
-    return results
+    return results.plot()
+    # results = seasonal_decompose(data['Close'],model = 'multiplicative' , period = 12)
+    # results.plot();
 
 # Function to plot the data and decomposition
 def plot_data_decomposition(data, decomposition):
