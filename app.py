@@ -31,6 +31,14 @@ st.write(df.describe())
 
 #visualizations
 
+st.title("Visit my Github Repo")
+
+    # Display some content
+
+    # Creating a hyperlin
+st.markdown("[Click here to visit Google](https://github.com/Harshksaw/Hotstart_clone_project)")
+
+
 st.subheader('Closing Price vs Time Chart')
 fig = plt.figure(figsize = (12,6))
 plt.plot(df.Close)
